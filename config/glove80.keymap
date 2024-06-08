@@ -19,6 +19,7 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/rgb.h>
+#include <dt-bindings/zmk/rgb_colors.h>
 
 /* Automatically generated layer name #define */
 #define LAYER_Base 0
@@ -32,22 +33,7 @@
 #endif
 
 /* Custom Device-tree */
-/* Empty underglow layer definition (for copy-paste)
-        mylayer {
-            bindings = <
-                ______ ______ ______ ______ ______                                                          ______ ______ ______ ______ ______
-                ______ ______ ______ ______ ______ ______                                            ______ ______ ______ ______ ______ ______
-                ______ ______ ______ ______ ______ ______                                            ______ ______ ______ ______ ______ ______
-                ______ ______ ______ ______ ______ ______                                            ______ ______ ______ ______ ______ ______
-                ______ ______ ______ ______ ______ ______ ______ ______ ______  ______ ______ ______ ______ ______ ______ ______ ______ ______
-                ______ ______ ______ ______ ______        ______ ______ ______  ______ ______ ______        ______ ______ ______ ______ ______
-                >;
-            layer-id = <LAYER_Name>;
-        };
-*/
-
-#include <dt-bindings/zmk/rgb_colors.h>
-{
+/{
     underglow-layer {
         compatible  = "zmk,underglow-layer";
         base {
@@ -85,9 +71,6 @@
         };
     };
 };
-
-
-
 
 /* Glove80 system behavior & macros */
 / {
