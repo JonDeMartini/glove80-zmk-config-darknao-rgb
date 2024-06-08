@@ -32,7 +32,6 @@
 #endif
 
 /* Custom Device-tree */
-/* Custom Device-tree */
 /* Empty underglow layer definition (for copy-paste)
         mylayer {
             bindings = <
