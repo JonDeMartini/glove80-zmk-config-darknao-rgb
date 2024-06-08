@@ -48,7 +48,7 @@
 */
 
 #include <dt-bindings/zmk/rgb_colors.h>
-/ {
+{
     underglow-layer {
         compatible  = "zmk,underglow-layer";
         base {
@@ -86,6 +86,7 @@
         };
     };
 };
+
 
 
 
