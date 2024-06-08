@@ -75,12 +75,12 @@
         };
         numeric {
             bindings = <
-                  BLUE   BLUE  CORAL  CORAL   PINK                                                            CORAL CORAL  CORAL ______  CORAL
-                ______ ______ ______ ______ ______  CORAL                                             CORAL   GOLD ORANGE ORANGE ORANGE  CORAL
-                ______ ______ ______ ORANGE ______  CORAL                                             CORAL YELLOW YELLOW YELLOW ORANGE  CORAL
-                ______ ______ ORANGE ORANGE ORANGE  CORAL                                             CORAL YELLOW YELLOW YELLOW ORANGE ______
-                ______   PINK ______   BLUE   BLUE  CORAL ______ ______  GREEN  ______ ______ ______  CORAL YELLOW YELLOW YELLOW    RED ______
-                 GREEN   PINK  CORAL   BLUE   BLUE        ______ ______ ______  ______ ______    RED        YELLOW YELLOW ORANGE    RED ______
+                  BLUE   BLUE PURPLE  PURPLE  PINK                                                            PURPLE PURPLE PURPLE ______ PURPLE
+                ______ ______ ______ ______ ______ PURPLE                                             PURPLE    GOLD ORANGE ORANGE ORANGE PURPLE
+                ______ ______ ______ ORANGE ______ PURPLE                                             PURPLE  YELLOW YELLOW YELLOW ORANGE PURPLE
+                ______ ______ ORANGE ORANGE ORANGE PURPLE                                             PURPLE  YELLOW YELLOW YELLOW ORANGE ______
+                ______   PINK ______   BLUE   BLUE PURPLE  ______ ______  GREEN  ______ ______ ______ PURPLE  YELLOW YELLOW YELLOW    RED ______
+                 GREEN   PINK PURPLE   BLUE   BLUE        ______ ______ ______  ______ ______    RED        YELLOW YELLOW ORANGE    RED ______
                 >;
             layer-id = <LAYER_Numeric>;
         };
